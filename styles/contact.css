@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: #E8F6D1;
+}
+#menu{
+    background-color: transparent;  
+}
+#card{
+    position: relative; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+#accordionExample{
+    background-color: transparent;
+}
+#headingOne, #headingTwo{
+    background-color: transparent;
+}
