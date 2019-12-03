@@ -5,4 +5,20 @@ body{
 #nav{
     background-color: transparent;  
 }
-
+#menu{
+    background-color: transparent; 
+     
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+#cardPic{
+    background-color: transparent; 
+    color: #E8F6D1;
+}
+#home-tab, #profile-tab, #contact-tab{
+    background-color: transparent; 
+}

@@ -11,15 +11,132 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./styles/button.css">
     <link rel="stylesheet" type="text/css" href="./styles/personal.css">
-    
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    
 
-    
+    <div class="container">
+        <!--Nav start-->
+
+        <div class="navbar">
+            <button class="btn btn-lg" type="button" id="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false"><img src="./images/export.png" width="20" height="20">
+                Where to?
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2" id="menu">
+                <a class="btn btn-lg" href="./index.html" role="button" id="button"><img src="./images/main.png"
+                        width="20" height="20"> Main</a>
+                <a class="btn btn-lg" href="./personal.html" role="button" id="button"><img src="./images/user.png"
+                        width="20" height="20"> Personal</a>
+
+                <a class="btn btn-lg" href="./apps.html" role="button" id="button"><img src="./images/laptop.png"
+                        width="20" height="20"> Apps</a>
+
+                <a class="btn btn-lg" href="./contact.html" role="button" id="button"><img
+                        src="./images/contact-book.png" width="20" height="20"> Contact</a>
+            </div>
+        </div>
+        <!--Nav end-->
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--Main content-->
+    <div class="container">
+
+        <div class="row">
+            <!--Brand card-->
+            <div class="col-lg-6">
+                <div class="card mb-3" style="max-width: 540px;" id="cardPic">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="./images/picture.JPG" class="card-img">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body" id="cardPic">
+                                <h5 class="card-title">Sara Martinez</h5>
+                                <p class="card-text">Web developer with 8+ years in senior management, a bachelor’s
+                                    degree in
+                                    Science. Proficient in Spanish and knowledge in server-side development, databases,
+                                    PHP,
+                                    computer science, browser-based technologies, deployment and quality assurance.
+                                    Seeking a
+                                    full-time position in Full-stack Web Development to extend and improve the
+                                    industry’s
+                                    emerging technologies.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Skills Card-->
+            <div class="col-lg-6">
+                <div class="card" id="cardPic">
+                    <div class="card-header">
+                        Skills
+                    </div>
+                    <div class="card-body">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                    aria-controls="home" aria-selected="true">Browser technologies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                    aria-controls="profile" aria-selected="false">Databases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                    aria-controls="contact" aria-selected="false">Server technologies</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <li>HTML</li>
+                                <li>Bootsrap</li>
+                                <li>CSS</li>
+                                <li>Handlebars</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                                <li>Local Storage, Cookies</li>
+                                <li>React.js</li>
+                                <li>Responsive Design</li>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <li>MySQL</li>
+                                    <li>MongoDB</li>
+                            </div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <li>Express</li>
+                                    <li>Node.js</li>
+                                    <li>Security and Session Storage</li>
+                                    <li>User Authentication</li>
+                                    <li>MERN Stack</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!--Footer-->
+    <div class="container" id="footer">
+        <footer class="blockquote-footer" id="footer">Click on the information you wish to view </footer>
+    </div>
+
+    <!--Script-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
