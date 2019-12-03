@@ -1,6 +1,6 @@
 body{
     background-color: black;
-    color: #E8F6D1;
+    color: white;
 }
 #nav{
     background-color: transparent;  
@@ -17,8 +17,15 @@ body{
 }
 #cardPic{
     background-color: transparent; 
-    color: #E8F6D1;
+    color: white;
 }
 #home-tab, #profile-tab, #contact-tab{
     background-color: transparent; 
+    
+}
+a:link {
+    color:white;
+}
+#list{
+    color:rgb(190, 226, 218);
 }
