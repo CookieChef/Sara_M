@@ -37,4 +37,8 @@ body{
 }
 #footer {
 	color: rgb(218, 221, 214);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem; 
 }
