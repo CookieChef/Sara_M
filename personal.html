@@ -60,7 +60,8 @@
                         <div class="col-md-8">
                             <div class="card-body" id="cardPic">
                                 <h3 id="myname" class="card-title">Sara Martinez</h3>
-                                <p class="card-text" id="list">Web developer with 8+ years in senior management, a
+                                <p class="card-text" id="list" style="color:white;">Web developer with 8+ years in
+                                    senior management, a
                                     bachelor’s
                                     degree in
                                     Science. Proficient in Spanish and knowledge in server-side development, databases,
@@ -70,7 +71,9 @@
                                     full-time position in Full-stack Web Development to extend and improve the
                                     industry’s
                                     emerging technologies.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <p class="card-text"><small><a class="btn btn-lg" href="apps.html" role="button"
+                                        id="button"><img src="./images/laptop.png" width="20" height="20"> Go to
+                                        Apps</a></small></p>
                             </div>
                         </div>
                     </div>
@@ -80,7 +83,7 @@
             <div class="col-lg-6">
                 <div class="card" id="cardPic">
                     <div class="card-header">
-                        <h5>Skills</h5>
+                        <h4>Skills</h4>
                     </div>
                     <div class="card-body">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -193,22 +196,123 @@
             <div class="col-lg">
                 <div class="card" id="cardPic">
                     <div class="card-header">
-                        <h5>Experience</h5>
+                        <h4>Education</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h5 id="myname">University of Central Florida | Orlando, FL.</h5>
+                                <p>06/04/2019 - 11/16/2019</p>
+                                <p>Coding Bootcamp</p>
+                                <p>Full-stack Web developer program</p>
+                                <p>UCF Coding Boot Camp is a part-time, 24-week
+                                    Full Stack Flex course that gives you the knowledge and skills to build dynamic
+                                    end-to-end
+                                    web applications and become a full stack web developer.
+                                    The program is rigorous and fast-paced and covers both the theory and application of
+                                    web
+                                    development. </p>
+
+                                <!-- Button trigger modal -->
+                                <button class="btn btn-lg" type="button" id="button" data-toggle="modal"
+                                    data-target="#bootcamp"><img src="./images/contract (1).png" width="20" height="20">
+                                    UCF Coding Certificate
+                                </button>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5 id="myname">Universidad del Turabo | Gurabo, PR.</h5>
+                                <p>08/24/2008 - 06/16/2014</p>
+                                <p>Bachelor of General Science</p>
+                                <p>Honor Scholarship program</p>
+                                <p>Interdisciplinary major that gives a grand tour of the major sciences.
+                                    I studied bioligy, chemistry, computer science, physics, phsychology,
+                                    math, chemistry, among other sciences.
+                                </p>
+
+                                <!-- Button trigger modal -->
+                                <button class="btn btn-lg" type="button" id="button" data-toggle="modal"
+                                    data-target="#bachelors"><img src="./images/diploma.png" width="20" height="20">
+                                    Bachelor degree
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="bootcamp" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content" id="modalcard">
+
+                                    <div class="modal-body">
+                                        <img id="image" src="./images/Coding Bootcamp.jpg">
+                                    </div>
+
+                                    <button id="button" type="button" class="btn btn-lg" data-dismiss="modal"><img
+                                            width="20" height="20" src="./images/delete.png"></button>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="bachelors" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content" id="modalcard">
+
+                                    <div class="modal-body">
+                                        <img id="image" src="./images/Bachelors.jpg">
+                                    </div>
+
+                                    <button id="button" type="button" class="btn btn-lg" data-dismiss="modal"><img
+                                            width="20" height="20" src="./images/delete.png"></button>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col-lg">
+                <div class="card" id="cardPic">
+                    <div class="card-header">
+                        <h4>Experience</h4>
                     </div>
                     <div class="card-body">
                         <div class="row justify-content-md-center">
                             <div class="col-lg-6">
                                 <div class="card" id="cardPic">
                                     <div class="card-header">
-                                        <h6 id="myname">PetSmart</h6>
+                                        <h5 id="myname">PetSmart</h5>
                                     </div>
                                     <div class="card-body">
+                                        <h6>Manager | St. Cloud, FL.</h6>
+                                        <p>10/31/2011 - 09/26/2019</p>
+                                        <ul>
+                                            <li>Trained and hired new associates and motivated them to continue to
+                                                grow their skills and knowledge throughout their career. </li>
+                                            <li>Built strong relationships with clients while ensuring their safety and
+                                                well-being.</li>
+                                            <li>Executed strategic merchandising initiatives, drive sales, set
+                                                standards, and business management.</li>
+                                            <li>Recognized by the CEO of the company by showing accountability to the
+                                                team and self-development.</li>
+                                        </ul>
 
-                                        <p>NEED TO ADD THE WORK INFORMATION HERE</p>
                                         <!-- Button trigger modal -->
                                         <button class="btn btn-lg" type="button" id="button" data-toggle="modal"
-                                            data-target="#recognitioncard"><img src="./images/diploma (1).png" width="20"
-                                                height="20">
+                                            data-target="#recognitioncard"><img src="./images/diploma (1).png"
+                                                width="20" height="20">
                                             CEO Recognition
                                         </button>
                                         <button class="btn btn-lg" type="button" id="button" data-toggle="modal"
@@ -239,12 +343,9 @@
                                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                                             <div class="modal-dialog" role="document">
                                                 <div class="modal-content" id="modalcard">
-
                                                     <div class="modal-body">
-                                                        <!--MISSING GROOMING CERTIFICATE PICTURE-->
-                                                        <img id="image" src="">
+                                                        <img id="image" src="./images/Grooming.jpg">
                                                     </div>
-
                                                     <button id="button" type="button" class="btn btn-lg"
                                                         data-dismiss="modal"><img width="20" height="20"
                                                             src="./images/delete.png"></button>
@@ -259,39 +360,53 @@
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                Childrens
+                                <div class="card" id="cardPic">
+                                    <div class="card-header">
+                                        <h5 id="myname">The Childrens Place</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Sales Associate | Caguas PR.</h6>
+                                        <p>06/16/2008 - 05/18/2011</p>
+                                        <ul>
+                                            <li>Provided unparalleled customer service while completing the daily
+                                                tasks assigned by supervisors. </li>
+                                            <li>Worked as a team to reach the daily goals of the store while keeping
+                                                track of the business prioritie</li>
+                                        </ul>
+
+                                        <!-- Button trigger modal -->
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
+
                 </div>
+
+
+
+
+
             </div>
 
 
-
-        </div>
-
-
-
-
-
-    </div>
-
-
-    <!--Footer-->
-    <div class="container" id="footer">
+            <!--Footer-->
+            <!-- <div class="container" id="footer">
         <footer class="blockquote-footer" id="footer">Click on the information you wish to view </footer>
-    </div>
+    </div> -->
 
-    <!--Script-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+            <!--Script-->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
 
 </body>
 
